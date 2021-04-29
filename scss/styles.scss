@@ -1,0 +1,33 @@
+$colorBoton:blue;
+$colorP:#cdcdcd;
+$colorT:#e9ecef;
+/*# sourceMappingURL=styles.css.map */
+
+body{
+    font-family: 'Open Sans', sans-serif;
+    background: $colorP;
+}
+
+.card:hover{
+    box-shadow: 0 0 10px #0c0c0ccb;
+  }
+
+.btn-primary{
+    border-color: darken($colorBoton, 50); //darken es una función que oscurece
+}
+
+.btn-primary:hover, .btn-primary:focus{
+    background-color: darken($colorBoton, 5);
+}
+.btn-primary:active{
+    background-color: darken($colorBoton, 15) !important;
+    border-color: darken($colorBoton, 60);
+}
+.card{
+    background-color: $colorT;
+}
+
+
+textarea {
+    resize: none;
+}

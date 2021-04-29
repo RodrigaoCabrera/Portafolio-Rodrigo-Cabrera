@@ -1,0 +1,42 @@
+/*# sourceMappingURL=styles.css.map */
+body {
+  font-family: 'Open Sans', sans-serif;
+  background: #cdcdcd; }
+
+.card:hover {
+  box-shadow: 0 0 10px #0c0c0ccb; }
+
+.btn-primary {
+  border-color: black; }
+
+.btn-primary:hover, .btn-primary:focus {
+  background-color: #0000e6; }
+
+.btn-primary:active {
+  background-color: #0000b3 !important;
+  border-color: black; }
+
+.card {
+  background-color: #e9ecef; }
+
+textarea {
+  resize: none; }
+
+li{
+  list-style-type: none;
+  margin:5px;
+  
+}
+.contacto{
+  font-size: 2em;
+  display:flex;
+  width: 5em;
+}
+
+.estudios{
+  background-color: #212121;
+}
+
+#conocimientos{
+  background-color: #212121;
+}
